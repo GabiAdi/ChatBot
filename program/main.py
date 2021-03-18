@@ -2,21 +2,14 @@ import random
 
 
 
-<<<<<<< HEAD
 def main(): # Main
 
-=======
-def main():
->>>>>>> e3a1e0f5d530f46dae1087283379c4241625df17
 	print("Dobar dan ja sam {ERROR: NO NAME FOUND}.")
 	
 	run = True
 	
 	while run:
-<<<<<<< HEAD
 
-=======
->>>>>>> e3a1e0f5d530f46dae1087283379c4241625df17
 		chat = input(">>> ").lower()
 		
 		if chat == "izlaz" or chat == "stop":
@@ -27,7 +20,6 @@ def main():
 			if chat == "da":
 				
 				run = False
-<<<<<<< HEAD
 
 		else:
 
@@ -46,13 +38,6 @@ def main():
 
 				l.write(toWrite)
 				l.close()
-
-
-
-=======
-				
->>>>>>> e3a1e0f5d530f46dae1087283379c4241625df17
-	quit()
 
 
 
